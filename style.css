@@ -20,74 +20,42 @@ h1 {
   margin: 0;
 }
 
-.cards-container {
+
+.section__cards-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 2rem;
 }
 
-.card {
+.container__card  {
+  padding: 1rem;
+}
+
+
+.cardImage {
+  width: 100%;
+  height: auto;
+}
+
+.container__cardText {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+
+.containerCardTitle {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+  color: #3498db;
+}
+
+
+.container__cardContent {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 1rem;
   overflow: hidden;
   width: 300px;
-}
-
-.card-img {
-  width: 100%;
-  height: auto;
-}
-
-.card-content {
-  padding: 1rem;
-}
-
-.card-title {
-  margin: 0 0 0.5rem 0;
-  font-size: 2rem;
-  color: #3498db;
-}
-
-.card-text {
-  margin: 0;
-  font-size: 1.4rem;
-}
-
-.section__cards-container {
-
-}
-
-.container__card  {
-
-}
-
-.container__cardImage {
-
-}
-
-.cardImage {
-
-}
-
-.container__cardText {
-
-}
-
-.h3 {
-
-}
-
-.containerTitle {
-
-}
-
-.paragraph {
-
-}
-
-.containerParagraph {
-
 }
