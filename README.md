@@ -211,6 +211,6 @@ Sie erhalten ein bestehendes Webprojekt auf Github und sollen einen Relaunch pla
 4. **Committen Sie Ihre Änderungen:** Geben Sie nach jedem bedeutenden Schritt einen aussagekräftigen Commit-Namen an und committen Sie Ihre Änderungen.
 5. **Merge:** Führen Sie einen Merge des "relaunch"-Branches zurück in den Haupt-Branch ("main") durch.
 6. Erstellen Sie auf ihrem Github-Account ein neues öffentliches Repository mit dem Namen "Abgabe-Webprog".
-7. Notieren Sie hier die URL zu Ihrem Repo auf Github:
+7. Notieren Sie hier die URL zu Ihrem Repo auf Github: https://github.com/bakedbads/daten
 8. Pushen Sie Ihr lokales Repository in das neu erstellte Remote-Repository.
 9. Speichern Sie zusätzlich alle lokalen Dateien als ZIP-Datei "vorname-nachname.zip" und mailen diese an manuel@startmedia.at
