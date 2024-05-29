@@ -33,7 +33,13 @@ h1 {
 }
 
 .container__card  {
-  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  overflow: hidden;
+  width: 100%;
+  width: 300px;
 }
 
 
@@ -42,9 +48,8 @@ h1 {
   height: auto;
 }
 
-.container__cardText {
-  margin: 0;
-  font-size: 1.4rem;
+.container__cardContent {
+  padding: 1rem;
 }
 
 
@@ -54,30 +59,21 @@ h1 {
   color: #3498db;
 }
 
-
-.container__cardContent {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 1rem;
-  overflow: hidden;
-  width: 300px;
+.container__cardText {
+  margin: 0;
+  font-size: 1.4rem;
 }
 
-.container__cardContent1 {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 1rem;
-  overflow: hidden;
-}
+
+
 
 /* CONTAINER QUERIES */
 
 .container__cardContent {
-  @container(max-width:540px){
-    .container__cardText {
-      font-size: 1rem;
-    } 
+
+  @container(max-width:200px){
+    
+    font-size: 1rem;
+
   }
 }
